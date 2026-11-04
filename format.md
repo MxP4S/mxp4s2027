@@ -5,6 +5,10 @@ title: Format and Schedule
 
 # Workshop schedule
 
+MxP4S 2027 will be a presenting five selective paper with invited talks.
+
+
+{% comment %}
 MxP4S 2026 will be a non-archival workshop (without proceedings) and will consist of invited talks and a panel discussion.
 
 The advance schedule of the workshop is described below.
@@ -24,3 +28,4 @@ The advance schedule of the workshop is described below.
 | 11:05 am | Panel discussion | Invited speakers |
 | 11:50 am | Audience questions | |
 | 11:55 am | Conclusion | |
+{% comment %}

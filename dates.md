@@ -5,8 +5,8 @@ title: Dates
 
 # Date, time and location
 
-Workshop date: May 25, 2026, Monday.
+Workshop date: June 1, 2027, Tuesday.
 
-Time: 8:30 am to 12:00 pm.
+Time: T.B.D.
 
-Location: IPDPS is being held at the Mariott on Canal Street, New Orleans, LA, USA.
+Location: IPDPS is being held at the Hyatt Regency Bellevue in Seattle, USA.

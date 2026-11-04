@@ -13,7 +13,7 @@ title: Home
 
 Thank you for your interest in the MxP4S workshop! The second MxP4S workshop will be held in conjunction with the 41st IEEE International Parallel & Distributed Processing Symposium, [IPDPS 2027](https://www.ipdps.org/), in Seattle, Washington, USA. IPDPS 2027 will take place June 1–5, 2027, with the exact workshop date and schedule to be announced.
 
-MxP4S 2027 will feature presentations of six selected papers, invited talks from distinguished researchers and practitioners, and opportunities for audience discussion. We welcome researchers interested in numerical methods, scientific simulations, mixed and adaptive precision, and high-performance computing.
+MxP4S 2027 will feature presentations of five selected papers, invited talks from distinguished researchers and practitioners, and opportunities for audience discussion. We welcome researchers interested in numerical methods, scientific simulations, mixed and adaptive precision, and high-performance computing.
 
 New and upcoming HPC platforms provide disproportionately high throughput for low-precision arithmetic, while their double-precision throughput is increasing more slowly or even plateauing.
 

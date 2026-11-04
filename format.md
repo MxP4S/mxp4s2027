@@ -5,8 +5,9 @@ title: Format and Schedule
 
 # Workshop schedule
 
-MxP4S 2027 will be a presenting five selective paper with invited talks.
+MxP4S 2027 will feature presentations of six selected papers, along with invited talks.
 
+The detailed workshop schedule will be posted after the IPDPS 2027 program is finalized.
 
 <!--
 MxP4S 2026 will be a non-archival workshop (without proceedings) and will consist of invited talks and a panel discussion.

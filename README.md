@@ -9,7 +9,7 @@ title: Home
 
 [Important dates](dates.html) | [Topics of interest](topics.html) | [Format and schedule](format.html) | [Organizers](orgranizers.html)
 
-![](img/mxp_visual.png)
+![](img/v4.png)
 
 Thank you for your interest in the MxP4S workshop! The second MxP4S workshop will be held in conjunction with the 41st IEEE International Parallel & Distributed Processing Symposium, [IPDPS 2027](https://www.ipdps.org/), in Seattle, Washington, USA. IPDPS 2027 will take place June 1–5, 2027, with the exact workshop date and schedule to be announced.
 

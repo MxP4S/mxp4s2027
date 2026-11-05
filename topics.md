@@ -26,13 +26,11 @@ Unless otherwise stated, submission and review deadlines are interpreted as **An
 ## Submission and review process
 
 - Submissions will be handled through the IPDPS Linklings system. The submission link will be posted when it becomes available.
-- Each paper will receive at least three peer reviews.
-- Accepted papers will appear in the IPDPS workshop proceedings, which are submitted for inclusion in the IEEE Xplore Digital Library.
+- Accepted papers will appear in the IPDPS workshop proceedings
 - At least one author of each accepted paper must register for IPDPS 2027 and present the work in person.
-- To maintain an independent review process, no more than one accepted paper may include a workshop organizer as a co-author.
 - The required paper format, page limit, and detailed submission instructions will be posted after they are confirmed with IPDPS.
 
-Authors may indicate whether they wish to be considered for **a paper presentation only**, **either a paper presentation or a poster**, or **a poster only**. Poster selections will consider reviewer assessments, author preferences, and the number of poster slots allocated to the workshop. Reviewers may also nominate outstanding submissions for a Best Paper Award.
+<!-- Authors may indicate whether they wish to be considered for **a paper presentation only**, **either a paper presentation or a poster**, or **a poster only**. Poster selections will consider reviewer assessments, author preferences, and the number of poster slots allocated to the workshop. Reviewers may also nominate outstanding submissions for a Best Paper Award. -->
 
 ## Scope
 

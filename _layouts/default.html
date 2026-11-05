@@ -4,57 +4,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <style>
-      body {
-        margin: 0;
-        color: #1f2933;
-        background: #ffffff;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        line-height: 1.6;
-      }
-
-      main {
-        max-width: 960px;
-        margin: 0 auto;
-        padding: 2rem 1.25rem 4rem;
-      }
-
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-
-      table {
-        border-collapse: collapse;
-        width: 100%;
-      }
-
-      th,
-      td {
-        border: 1px solid #d0d7de;
-        padding: 0.5rem 0.65rem;
-        vertical-align: top;
-      }
-
-      th {
-        background: #f6f8fa;
-        text-align: left;
-      }
-
-      th:first-child,
-      td:first-child {
-        min-width: 5.5rem;
-        white-space: nowrap;
-      }
-
-      a {
-        color: #0969da;
-      }
-    </style>
+    <link rel="stylesheet" href="{{ '/css/mxp4s.css' | relative_url }}">
   </head>
-  <body>
-    <main>
+  <body class="{% if page.title == 'Home' %}mxp-page-home{% else %}mxp-page-subpage{% endif %}">
+    {% if page.title == "Home" %}
       {{ content }}
-    </main>
+    {% else %}
+      <main class="mxp-subpage-shell">
+        <nav class="mxp-subpage-nav" aria-label="Workshop navigation">
+          <a class="mxp-subpage-brand" href="{{ '/' | relative_url }}">MxP4S 2027</a>
+          <div class="mxp-subpage-links">
+            <a href="{{ '/dates.html' | relative_url }}"{% if page.url == '/dates.html' %} aria-current="page"{% endif %}>Important dates</a>
+            <a href="{{ '/topics.html' | relative_url }}"{% if page.url == '/topics.html' %} aria-current="page"{% endif %}>Call for Papers</a>
+            <a href="{{ '/format.html' | relative_url }}"{% if page.url == '/format.html' %} aria-current="page"{% endif %}>Format and schedule</a>
+            <a href="{{ '/organizers.html' | relative_url }}"{% if page.url == '/organizers.html' %} aria-current="page"{% endif %}>Organizers</a>
+          </div>
+        </nav>
+
+        <article class="mxp-subpage-card">
+          {{ content }}
+        </article>
+      </main>
+    {% endif %}
   </body>
 </html>

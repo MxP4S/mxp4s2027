@@ -10,7 +10,7 @@ title: Home
   <header class="mxp-hero">
     <div class="mxp-hero-copy">
       <span class="mxp-eyebrow">Second MxP4S Workshop</span>
-      <h1>Mixed- and Adaptive-Precision Numerics for <span>Scientific Computing</span></h1>
+      <h1>Second Mixed- and Adaptive-Precision Numerics for <span>Scientific Computing</span></h1>
       <p class="mxp-hero-lead">
         Scientific computing needs more performance without surrendering reliable results.
         MxP4S brings together the algorithms, software, hardware, and applications that can make that possible.

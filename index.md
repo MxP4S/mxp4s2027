@@ -104,6 +104,7 @@ title: Home
 </div>
   </section>
 
+  <!--
   <section class="mxp-section mxp-callout" aria-labelledby="challenge-heading">
     <h2 id="challenge-heading">From hardware capability to dependable scientific results</h2>
     <p>
@@ -117,7 +118,26 @@ title: Home
       performance and reliable science on current and future HPC platforms.
     </p>
   </section>
+ -->
 
+ <section class="mxp-section mxp-callout" aria-labelledby="challenge-heading">
+    <h2 id="challenge-heading">What we plan to discuss</h2>
+    <p>
+      Many scientific methods cannot directly use the rapidly growing low-precision capabilities developed for
+      AI training and inference without risking accuracy, stability, or reproducibility. At MxP4S, we plan to
+      discuss how scientific computing can close this gap: where low precision provides real benefits, where
+      higher precision remains essential, and how precision can adapt across algorithms, applications, and hardware.
+    </p>
+    <p>
+      <strong>We invite papers that help answer these questions and turn hardware capability into dependable
+      scientific results.</strong> We particularly welcome contributions on new numerical techniques, error analysis,
+      programming models, software tools, benchmarks, scientific application experiences, and hardware-software
+      co-design. Both successful approaches and careful studies of limitations are valuable, especially work that
+      offers practical guidance for achieving higher performance while preserving reliable science on current and
+      future HPC platforms.
+    </p>
+  </section>
+  
   <nav class="mxp-quicklinks" aria-label="Workshop information">
     <a href="dates.html">Important dates</a>
     <a href="topics.html">Topics of interest</a>

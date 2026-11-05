@@ -1,5 +1,5 @@
 
-<link rel="stylesheet" href="{{ '/assets/css/mxp4s.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/css/mxp4s.css' | relative_url }}">
 
 <main class="mxp4s-home">
   <header class="mxp-hero">

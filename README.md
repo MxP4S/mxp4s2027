@@ -29,7 +29,7 @@ title: Home
     <a href="organizers.html">Organizers</a>
   </nav>
 </div>
-
+ 
 <figure>
   <img
     src="{{ '/img/mixed_precision_workgroup.png' | relative_url }}"

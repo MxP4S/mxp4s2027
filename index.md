@@ -1,3 +1,7 @@
+---
+layout: default
+title: Home
+---
 
 <link rel="stylesheet" href="{{ '/css/mxp4s.css' | relative_url }}">
 

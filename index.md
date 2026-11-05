@@ -85,7 +85,7 @@ title: Home
   </article>
 
   <article class="mxp-principle">
-    <h3>Accuracy</h3>
+    <h3>Accuracy still important</h3>
     <p>
       First-principles simulations and numerical solvers often have strict requirements for stability and
       trustworthy results. Effective mixed-precision methods must expose, control, and—when necessary—recover
@@ -94,7 +94,7 @@ title: Home
   </article>
 
   <article class="mxp-principle">
-    <h3>Precision should adapt to the problem</h3>
+    <h3>Science adaption</h3>
     <p>
       The goal is not simply to replace FP64 with one smaller format. It is to determine which precision is
       sufficient at each stage, when higher precision is essential, and how algorithms and systems can adapt

@@ -8,3 +8,6 @@ kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
 title: "MxP4S"
+
+url: "https://mxp4s.github.io"
+baseurl: "/mxp4s2027"

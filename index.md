@@ -1,26 +1,128 @@
----
-layout: default
-title: Home
----
 
-# Second Workshop on Mixed- and Adaptive-Precision Numerics for Scientific Computing (MxP4S)
+<link rel="stylesheet" href="{{ '/css/mxp4s.css' | relative_url }}">
 
-## IPDPS 2027, Seattle, Washington, USA
+<main class="mxp4s-home">
+  <header class="mxp-hero">
+    <div class="mxp-hero-copy">
+      <span class="mxp-eyebrow">Second MxP4S Workshop</span>
+      <h1>Mixed- and Adaptive-Precision Numerics for <span>Scientific Computing</span></h1>
+      <p class="mxp-hero-lead">
+        Scientific computing needs more performance without surrendering reliable results.
+        MxP4S brings together the algorithms, software, hardware, and applications that can make that possible.
+      </p>
 
-[Important dates](dates.html) | [Topics of interest](topics.html) | [Format and schedule](format.html) | [Organizers](orgranizers.html)
+  <div class="mxp-event-line" aria-label="Event details">
+    <span>IPDPS 2027</span>
+    <span>Seattle, Washington, USA</span>
+    <span>June 1–5, 2027</span>
+  </div>
 
-![](img/mxp_visual.png)
+  <nav class="mxp-actions" aria-label="Primary workshop links">
+    <a href="dates.html">Important dates</a>
+    <a href="topics.html">Topics of interest</a>
+    <a href="format.html">Format and schedule</a>
+    <a href="organizers.html">Organizers</a>
+  </nav>
+</div>
 
-Thank you for your interest in the MxP4S workshop! The second MxP4S workshop will be held in conjunction with the 41st IEEE International Parallel & Distributed Processing Symposium, [IPDPS 2027](https://www.ipdps.org/), in Seattle, Washington, USA. IPDPS 2027 will take place June 1–5, 2027, with the exact workshop date and schedule to be announced.
+<figure>
+  <img
+    src="{{ '/img/mixed_precision_workgroup.png' | relative_url }}"
+    alt="Researchers representing FP64, FP32, TF32, BF16, FP16, FP8, and INT8 collaborate on a scientific problem, alongside an FP64 system built from an FP8 core."
+  >
+  <figcaption>Different precisions, complementary strengths, one shared scientific objective.</figcaption>
+</figure>
+  </header>
 
-MxP4S 2027 will feature presentations of six selected papers, invited talks from distinguished researchers and practitioners, and opportunities for audience discussion. We welcome researchers interested in numerical methods, scientific simulations, mixed and adaptive precision, and high-performance computing.
+  <section class="mxp-section mxp-mission" aria-labelledby="welcome-heading">
+    <div class="mxp-mission-main">
+      <h2 id="welcome-heading">Welcome to MxP4S 2027</h2>
+      <p>
+        The second Workshop on Mixed- and Adaptive-Precision Numerics for Scientific Computing
+        (MxP4S) will be held in conjunction with the
+        <a href="https://www.ipdps.org/">41st IEEE International Parallel &amp; Distributed Processing Symposium</a>
+        in Seattle, Washington, USA. The exact workshop date and detailed schedule will be announced.
+      </p>
+      <p>
+        We welcome researchers and practitioners working across numerical methods, scientific simulation,
+        high-performance computing, computer architecture, and performance-portable software. The workshop
+        is designed to connect advances in numerical accuracy with the rapidly changing capabilities of
+        modern computing systems.
+      </p>
+    </div>
 
-New and upcoming HPC platforms provide disproportionately high throughput for low-precision arithmetic, while their double-precision throughput is increasing more slowly or even plateauing.
+<aside class="mxp-program-card" aria-label="Workshop program highlights">
+  <h3>Program highlights</h3>
+  <ul>
+    <li>Six selected-paper presentations</li>
+    <li>Invited talks from distinguished researchers and practitioners</li>
+    <li>Discussion across algorithms, systems, and scientific applications</li>
+    <li>Opportunities for audience participation</li>
+  </ul>
+</aside>
+  </section>
 
-![Factors on the right represent growth between 2016 and 2025](img/flops_years_annotated.png "Evolution of compute throughput in AMD and NVIDIA GPUs in recent years")
+  <section class="mxp-section" aria-labelledby="why-heading">
+    <h2 id="why-heading">Why mixed precision matters for science</h2>
+    <p class="mxp-section-intro">
+      On many emerging accelerators, low-precision arithmetic throughput is growing much faster than
+      native double-precision throughput. Scientific computing can benefit from this shift—but only when
+      performance, accuracy, stability, and reproducibility are treated as a single design problem.
+    </p>
 
-This trend is driven largely by the demands of artificial intelligence model training and inference. Meanwhile, the computational requirements of scientific applications continue to grow. In many scientific domains, the low-precision capabilities of modern hardware cannot be used directly because of the accuracy and stability requirements of first-principles simulations. Many data-driven scientific methods also do not rely on neural networks or gradient descent and therefore do not automatically benefit from low-precision computational throughput.
+<div class="mxp-principles">
+  <article class="mxp-principle">
+    <h3>A growing performance opportunity</h3>
+    <p>
+      AI-driven hardware is delivering enormous capability in formats such as FP16, BF16, FP8, and INT8.
+      Scientific applications need methods that can translate this capability into useful time-to-solution
+      and energy-efficiency gains.
+    </p>
+  </article>
 
-It is therefore important to establish principles and practical techniques that help computational scientists use low-precision hardware while understanding and controlling its effect on application accuracy. These advances can improve time to solution, memory and storage requirements, energy efficiency, the productivity of scientific software teams, and the operating costs of HPC facilities.
+  <article class="mxp-principle">
+    <h3>Accuracy cannot be an afterthought</h3>
+    <p>
+      First-principles simulations and numerical solvers often have strict requirements for stability and
+      trustworthy results. Effective mixed-precision methods must expose, control, and—when necessary—recover
+      the accuracy lost in lower-precision computation.
+    </p>
+  </article>
 
-We also have an opportunity to redefine precision in scientific computing in terms of adaptive precision rather than one or two fixed numerical formats. This can lead to a sustainable computing paradigm that delivers high performance while maintaining reliable results on current and emerging hardware architectures. Determining how this paradigm should support different computational motifs and scientific domains remains an important research challenge.
+  <article class="mxp-principle">
+    <h3>Precision should adapt to the problem</h3>
+    <p>
+      The goal is not simply to replace FP64 with one smaller format. It is to determine which precision is
+      sufficient at each stage, when higher precision is essential, and how algorithms and systems can adapt
+      as a computation evolves.
+    </p>
+  </article>
+</div>
+  </section>
+
+  <section class="mxp-section mxp-callout" aria-labelledby="challenge-heading">
+    <h2 id="challenge-heading">From hardware capability to dependable scientific results</h2>
+    <p>
+      Many scientific methods do not automatically benefit from the hardware advances created for neural-network
+      training and inference. Unlocking that performance requires new numerical techniques, error analyses,
+      programming models, software tools, benchmarks, and co-design across the full computing stack.
+    </p>
+    <p>
+      <strong>MxP4S focuses on this bridge.</strong> We seek practical principles for using low precision where it
+      helps, retaining high precision where it matters, and building adaptive approaches that deliver both high
+      performance and reliable science on current and future HPC platforms.
+    </p>
+  </section>
+
+  <nav class="mxp-quicklinks" aria-label="Workshop information">
+    <a href="dates.html">Important dates</a>
+    <a href="topics.html">Topics of interest</a>
+    <a href="format.html">Format and schedule</a>
+    <a href="organizers.html">Organizers</a>
+  </nav>
+</main>
+
+⋮⋮⋮⋮
+
+
+

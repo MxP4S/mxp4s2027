@@ -5,7 +5,7 @@ title: Format and Schedule
 
 # Workshop schedule
 
-MxP4S 2027 will feature presentations of six selected papers, along with invited talks.
+MxP4S 2027 will be a **half-day, in-person workshop** held in conjunction with the [41st IEEE International Parallel & Distributed Processing Symposium (IPDPS 2027)](https://www.ipdps.org/) at the Hyatt Regency Bellevue in the Seattle metropolitan area. The workshop is scheduled for **Wednesday morning, June 2, 2027**. The program will feature **six selected-paper presentations**, invited contributions, and opportunities for discussion across the numerical methods, scientific computing, software, and hardware communities.
 
 The detailed workshop schedule will be posted after the IPDPS 2027 program is finalized.
 

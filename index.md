@@ -23,7 +23,7 @@ title: Home
 
   <nav class="mxp-actions" aria-label="Primary workshop links">
     <a href="dates.html">Important dates</a>
-    <a href="topics.html">Topics of interest</a>
+    <a href="topics.html">Call for Papers</a>
     <a href="format.html">Format and schedule</a>
     <a href="organizers.html">Organizers</a>
   </nav>

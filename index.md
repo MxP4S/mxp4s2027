@@ -76,7 +76,7 @@ title: Home
 
 <div class="mxp-principles">
   <article class="mxp-principle">
-    <h3>A growing performance opportunity</h3>
+    <h3>Hardware evolution </h3>
     <p>
       AI-driven hardware is delivering enormous capability in formats such as FP16, BF16, FP8, and INT8.
       Scientific applications need methods that can translate this capability into useful time-to-solution
@@ -85,7 +85,7 @@ title: Home
   </article>
 
   <article class="mxp-principle">
-    <h3>Accuracy cannot be an afterthought</h3>
+    <h3>Accuracy</h3>
     <p>
       First-principles simulations and numerical solvers often have strict requirements for stability and
       trustworthy results. Effective mixed-precision methods must expose, control, and—when necessary—recover

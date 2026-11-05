@@ -9,7 +9,8 @@ title: Organizing Team
 | Aditya Kashi | Oak Ridge National Laboratory (ORNL), USA |
 | Piotr Luszczek | MIT Lincoln Laboratory, USA |
 | Paul Lin | NVIDIA, USA |
+| Hao Lu | Oak Ridge National Laboratory (ORNL), USA |
 | Toshiyuki Imamura | RIKEN Center for Computational Science (RIKEN R-CCS), Japan |
 | Erin Carson | Charles University, Czechia |
-| Hao Lu | Oak Ridge National Laboratory (ORNL), USA |
-|------|-------------|
+
+

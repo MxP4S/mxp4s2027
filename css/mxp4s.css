@@ -107,14 +107,19 @@
 .mxp-actions a {
   display: inline-block;
   padding: 0.68rem 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.24);
+  border: 1px solid #a9ecf6;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
-  color: var(--mxp-white);
+  background: #eefaff;
+  color: var(--mxp-navy);
   font-size: 0.9rem;
-  font-weight: 750;
+  font-weight: 800;
   text-decoration: none;
-  transition: transform 150ms ease, background 150ms ease, border-color 150ms ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  transition:
+    transform 150ms ease,
+    background 150ms ease,
+    border-color 150ms ease,
+    box-shadow 150ms ease;
 }
 
 .mxp-actions a:first-child {
@@ -125,12 +130,19 @@
 
 .mxp-actions a:hover {
   transform: translateY(-2px);
-  border-color: #a9ecf6;
-  background: rgba(255, 255, 255, 0.15);
+  border-color: var(--mxp-white);
+  background: var(--mxp-white);
+  color: var(--mxp-navy);
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.27);
 }
 
 .mxp-actions a:first-child:hover {
   background: #74dceb;
+}
+
+.mxp-actions a:focus-visible {
+  outline: 3px solid var(--mxp-gold);
+  outline-offset: 3px;
 }
 
 .mxp-hero figure {
@@ -337,7 +349,6 @@
     grid-template-columns: 1fr;
   }
 }
-
 
 
 
